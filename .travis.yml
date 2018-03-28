@@ -1,0 +1,9 @@
+language: node_js
+deploy:
+  provider: npm
+  email: jennaplusplus@gmail.com
+  api_key:
+    secure: ETpPF1uNaIaIcrbppfFKnV/8jbLKGBdIrur9ibUsRZJG+qxxAFgZu5sgqRq16xnLbcHEThtSfu6eYkyl+ANDT6IdztKWlcH+RzDy7erQHIBZsJE0kAde13SSD6Fq4nxBGBCYjkDI3T6V6QVKAlzp2ncH+wnLbr+VNDtndIgphpt4uAP/7fsBv3+Vx+qHpWsuCEYLdXx4qJsOFFnzhwTfQ7BzmQsIIZSGXm/XIbLTnw8//l/iPh8M8Nl/RuVPPObKA+b0ddTTGPXcpVsNGHWdeFYPqR9n6afkhB+977mDxXX2e9QbV21Imo7ouO9sCwJ370R4sk7R273bM8U+5+zaNK6jNV0Qkx5RvtX3qPpIlGNkgpuRJUVlA63Cp67HBknqZI7CZjKWOJcnJBw41ekyCuSouwrrSHM/w96mBxw1Y8IqRWqwRSkXPWPx6Nl2Axyy35uGVbsXJqMxJTt+mmSad8JLJvGUtzsteKidqARtyoyCRoJTXaCM6x9EIvYLBwltQYbM3kdfF3faLa8Wvq0gfU7NuTpvnYRsA/AKYEPpmkpcop8HMNmtRuQTFdEQDV29IH74dgk4pEC5tiY9mL3kt9r/YkvBLGutBQ/3l1PMaH+usGizE++sfaUcf95LmDPiRjo5DyfeH//Wc3G0D2cQHEweb73Es/GGrs0F3KZY688=
+  on:
+    tags: true
+    repo: jennaplusplus/myFirstNpm
