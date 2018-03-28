@@ -1,0 +1,14 @@
+{
+  "name": "jenna",
+  "version": "0.0.6",
+  "description": "Jenna's first npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "author": "Jenna Nichols",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
