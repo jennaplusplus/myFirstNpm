@@ -8,5 +8,3 @@ deploy:
     tags: true
     repo: jennaplusplus/myFirstNpm
     branch: master
-env:
-  TRAVIS_TAG=npmPublish
