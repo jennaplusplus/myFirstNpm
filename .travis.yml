@@ -7,3 +7,4 @@ deploy:
   on:
     repo: jennaplusplus/myFirstNpm
     branch: master
+    tags: true
